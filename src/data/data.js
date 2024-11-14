@@ -3,6 +3,10 @@ import Delivery from "../Pages/Delivery";
 import Pickup from "../Pages/Pickup";
 import Catalog from "../Pages/Catalog";
 import Cart from "../Pages/Cart";
+import img1 from "../image/2.png";
+import img2 from "../image/3.png";
+import img3 from "../image/4.png";
+import img from "../unnamed.jpg";
 
 export const ApiRoutes = [
   {
@@ -164,5 +168,75 @@ export const ApiRoutes = [
     name: "Cart",
     link: "/cart",
     component: Cart,
+  },
+];
+export const ApiHomeofAbout = [
+  {
+    id: 1,
+    img: img1,
+    span: "Fast Shipping  ",
+    text: "4-day delivery time and an expedited delivery option.",
+  },
+  {
+    id: 2,
+    img: img2,
+    span: "Fern-tastic Selection",
+    text: "Many different species and variations in each category.  ",
+  },
+  {
+    id: 3,
+    img: img3,
+    span: "24/5 Support",
+    text: "We can answer your plant related questions, kinda.",
+  },
+];
+export const ApiCatalog = [
+  {
+    id: 1,
+    image: img,
+    type: "Cactus Plant",
+    button: "Buy Now",
+    price: 8,
+    notprice: 10,
+  },
+  {
+    id: 2,
+    image: img,
+    type: "Not Cactus Plant",
+    button: "Buy Now",
+    price: 8,
+    notprice: 10,
+  },
+  {
+    id: 3,
+    image: img,
+    type: "Cactus Plant",
+    button: "Buy Now",
+    price: 8,
+    notprice: 10,
+  },
+  {
+    id: 4,
+    image: img,
+    type: "Not Cactus Plant",
+    button: "Buy Now",
+    price: 8,
+    notprice: 10,
+  },
+  {
+    id: 5,
+    image: img,
+    type: "Not Cactus Plant",
+    button: "Buy Now",
+    price: 8,
+    notprice: 10,
+  },
+  {
+    id: 6,
+    image: img,
+    type: "Cactus Plant",
+    button: "Buy Now",
+    price: 8,
+    notprice: 10,
   },
 ];
